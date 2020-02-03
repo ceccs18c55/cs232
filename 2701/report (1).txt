@@ -1,0 +1,43 @@
+CEC CS 18 111
+Shilpa Sajan Punnoose
+-----------------------
+LINUX COMMANDS
+-----------------------
+Directory &file handling:
+ mkdir
+ cd
+ rm
+ mv
+ cp
+ls:
+   ls
+ ls-l
+ ls-lt
+ ls -ltr
+alias :
+  alias ll='ls -al'
+  unalias ll
+sort commands:
+ sort -nr
+ sort -c
+ sort -r
+grep command:
+ grep -c
+ grep -w
+ grep -r
+ join 
+---------------------------------------
+INPUT:
+-----
+text files:
+ test.txt : "hello everyone,this is my first"
+ fruits.txt :" apple lemon watermelon orange"
+ geekfile.txt:"unix is great os.unix is opensource"
+ num.txt:"12 34 256 134"
+ m.txt:2 8
+ n.txt:4 66
+output:
+-------
+ sort -n num.txt:12 34 134 256
+ sort -nr num.txt :256 134 34 12
+linux commands excecuted successfully.
