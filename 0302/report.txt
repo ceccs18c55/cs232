@@ -1,0 +1,34 @@
+CEC CS 18 111
+SHILPA SAJAN PUNNOOSE
+
+----------------
+TASK 2:Scripting task
+--------------------
+Directory &file handling:
+ mkdir
+ cd
+ rm
+ mv
+ cp
+awk:programming language for text manipulation.
+
+awk commands
+:awk '/CHN18CS/{print}' result.txt
+     awk '/CHN18CS/ {print}' result.txt >cs.txt
+     awk '/CHN18CS/ {print}' result.txt >csc.txt
+(to copy records which satisfy the given pattern)
+: awk '/F/ {print}' cs.txt
+   awk '/F/ {print}' cs.txt >fail.txt
+  (to get students who failed from cs.txt)
+pdftotext: used to covert pdf file to a text file.
+pdftotext -layout result.pdf result.txt
+
+INPUT:
+------
+result.pdf:result of S1 students in pdf 
+
+OUTPUT:
+------
+result.txt: result of S1 students in text form.
+cs.txt: consist of result of cs students only
+fail.txt: consist of students who failed in atleast one subject.
